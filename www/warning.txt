@@ -1,0 +1,11 @@
+MySQL:
+
+drop database if exists myweb;
+0 row(s) affected, 1 warning(s): 
+Can't drop database 'myweb'; database doesn't exist
+
+
+grant select, insert, update, delete on myweb.* to 'www-data'@'localhost' identified by 'www-data'
+0 row(s) affected, 1 warning(s):
+Using GRANT for creating new user is deprecated and will be removed in future release.
+Create new user with CREATE USER statement.
